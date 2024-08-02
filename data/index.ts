@@ -1,6 +1,6 @@
 import shop from './shop.png'
 import weather from './weather-app.jpg'
-import Study from './studynotion.png'
+import Kode from './LearnKode.png'
 import employee from './add_employee.jpg'
 export const navItems = [
   { name: "About", link: "#about" },
@@ -77,16 +77,16 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "StudyNotion Edtech Platform",
+    title: "Learn Kode Edtech Platform",
     des: "An MERN-based EdTech web app offering user authentication, course management, progress tracking, secure payments, and instructor dashboards.",
-    img: Study,
+    img: Kode,
     iconLists: [
       "/reactjs-svgrepo-com.svg",
       "node-js-svgrepo-com.svg",
       "mongodb-svgrepo-com.svg",
       "/tail.svg",
     ],
-    link: "https://studynotion-frontend-eight-neon.vercel.app/",
+    link: "https://learn-kode-frontend.vercel.app/",
   },
   {
     id: 2,
